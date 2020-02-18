@@ -3,11 +3,20 @@
 	"capability": [
 		{
 			"capability-name": "Assessment management",
-			"capability-description": "The ability to manage the process of assessing liability for a tax or charge from the identification of an obligation to calculation and adjustment of liabilities.\n"
+			"capability-description": "The ability to manage the process of assessing liability for a tax or charge from the identification of an obligation to calculation and adjustment of liabilities.\n",
+			"capability": [
+				{
+					"capability-name": "Assessment rule management",
+					"capability-description": "The ability to manage business rules that enable the assessment of a liability for or an exemption from a tax and charge."
+				}
+			]
 		},
 		{
 			"capability-name": "Notification management",
-			"capability-description": "The ability to manage the provision of notifications to citizens, stakeholders and tax payers."
+			"capability-description": "The ability to manage the provision of notifications to citizens, stakeholders and tax payers.",
+			"capability": [
+				{}
+			]
 		}
 	]
 }
