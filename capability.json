@@ -4,6 +4,10 @@
 		{
 			"capability-name": "Assessment management",
 			"capability-description": "The ability to manage the process of assessing liability for a tax or charge from the identification of an obligation to calculation and adjustment of liabilities.\n"
+		},
+		{
+			"capability-name": "Notification management",
+			"capability-description": "The ability to manage the provision of notifications to citizens, stakeholders and tax payers."
 		}
 	]
 }
