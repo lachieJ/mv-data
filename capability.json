@@ -1,3 +1,9 @@
 {
-	"businessName": "Analysis Partners"
+	"businessName": "Analysis Partners",
+	"capability": [
+		{
+			"capability-name": "Assessment management",
+			"capability-description": "The ability to manage the process of assessing liability for a tax or charge from the identification of an obligation to calculation and adjustment of liabilities.\n"
+		}
+	]
 }
