@@ -21,6 +21,9 @@
 		{
 			"capability-name": "Property Management",
 			"capability-description": "The ability to manage the information related to property relevant to revenue and rental bond management"
+		},
+		{
+			"capability-name": "Valuation Managment"
 		}
 	]
 }
