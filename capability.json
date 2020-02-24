@@ -12,18 +12,11 @@
 			]
 		},
 		{
-			"capability-name": "Notification management",
-			"capability-description": "The ability to manage the provision of notifications to citizens, stakeholders and tax payers.",
-			"capability": [
-				{}
-			]
-		},
-		{
-			"capability-name": "Property Management",
+			"capability-name": "Property management",
 			"capability-description": "The ability to manage the identification and relationships of property relevant to revenue and rental bond management"
 		},
 		{
-			"capability-name": "Valuation Management",
+			"capability-name": "Valuation management",
 			"capability-description": "The ability to value and re-value are parcel of land."
 		}
 	]
