@@ -33,6 +33,14 @@
 				{
 					"capability-name": "Valuation property matching",
 					"capability-description": "The ability to match property characteristics to valuation factors and valuation bench marks"
+				},
+				{
+					"capability-name": "Valuation generation",
+					"capability-description": "The ability to generate a valuation for an identified property."
+				},
+				{
+					"capability-name": "Valuation validation",
+					"capability-description": "The ability to validate a generated valuation"
 				}
 			]
 		}
