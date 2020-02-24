@@ -13,11 +13,28 @@
 		},
 		{
 			"capability-name": "Property management",
-			"capability-description": "The ability to manage the identification and relationships of property relevant to revenue and rental bond management"
+			"capability-description": "The ability to manage the identification and relationships of property relevant to revenue and rental bond management",
+			"capability": [
+				{}
+			]
 		},
 		{
 			"capability-name": "Valuation management",
-			"capability-description": "The ability to value and re-value are parcel of land."
+			"capability-description": "The ability to value and re-value are parcel of land.",
+			"capability": [
+				{
+					"capability-name": "Valuation factor identification",
+					"capability-description": "The ability to generate and quantify the factors that impact on property valuation"
+				},
+				{
+					"capability-name": "Valuation bench marking",
+					"capability-description": "The ability to identify comparative ratings between the values of properties."
+				},
+				{
+					"capability-name": "Valuation property matching",
+					"capability-description": "The ability to match property characteristics to valuation factors and valuation bench marks"
+				}
+			]
 		}
 	]
 }
