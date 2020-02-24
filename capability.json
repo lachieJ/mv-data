@@ -20,10 +20,11 @@
 		},
 		{
 			"capability-name": "Property Management",
-			"capability-description": "The ability to manage the information related to property relevant to revenue and rental bond management"
+			"capability-description": "The ability to manage the identification and relationships of property relevant to revenue and rental bond management"
 		},
 		{
-			"capability-name": "Valuation Managment"
+			"capability-name": "Valuation Management",
+			"capability-description": "The ability to value and re-value are parcel of land."
 		}
 	]
 }
