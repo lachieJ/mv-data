@@ -34,6 +34,10 @@
 				{
 					"capability-name": "Lease variation management",
 					"capability-description": "The ability to manage variations to leases that may alter their definition or there approve usage."
+				},
+				{
+					"capability-name": "Property ownership management",
+					"capability-description": "The ability to manage the ownership of a parcel of land."
 				}
 			]
 		},
