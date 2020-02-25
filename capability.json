@@ -70,7 +70,18 @@
 					"capability-name": "Accounts receivable management",
 					"capability-description": "The ability to manage accounts receivable"
 				},
-				{}
+				{
+					"capability-name": "Accounts payable",
+					"capability-description": "Ability to manage accounts payable"
+				},
+				{
+					"capability-name": "Financial accounting",
+					"capability-description": "Ability to manage financial accounting"
+				},
+				{
+					"capability-name": "Management accounting",
+					"capability-description": "Ability to manage management accounting"
+				}
 			],
 			"capability-description": "The ability to manage the enterprises financial accounts."
 		}
