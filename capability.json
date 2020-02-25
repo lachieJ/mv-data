@@ -58,8 +58,13 @@
 		{
 			"capability-name": "Financial account management",
 			"capability": [
+				{
+					"capability-name": "Accounts receivable management",
+					"capability-description": "The ability to manage accounts receivable"
+				},
 				{}
-			]
+			],
+			"capability-description": "The ability to manage the enterprises financial accounts."
 		}
 	]
 }
