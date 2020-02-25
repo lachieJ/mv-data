@@ -15,7 +15,10 @@
 			"capability-name": "Property management",
 			"capability-description": "The ability to manage the identification and relationships of property relevant to revenue and rental bond management",
 			"capability": [
-				{}
+				{
+					"capability-name": "New lease management",
+					"capability-description": "The ability to define new leases"
+				}
 			]
 		},
 		{
