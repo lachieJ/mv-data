@@ -16,9 +16,6 @@
 				{
 					"capability-name": "Assessment period management",
 					"capability-description": "The ability to manage the date periods to which a set of assessment rules and thresholds apply."
-				},
-				{
-					"capability-name": "Revenue line management"
 				}
 			]
 		},
