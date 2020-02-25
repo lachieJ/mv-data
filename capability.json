@@ -54,6 +54,12 @@
 					"capability-description": "The ability to validate a generated valuation"
 				}
 			]
+		},
+		{
+			"capability-name": "Financial account management",
+			"capability": [
+				{}
+			]
 		}
 	]
 }
