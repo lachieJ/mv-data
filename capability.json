@@ -8,6 +8,14 @@
 				{
 					"capability-name": "Assessment rule management",
 					"capability-description": "The ability to manage business rules that enable the assessment of a liability for or an exemption from a tax and charge."
+				},
+				{
+					"capability-name": "Assessment rates and thresholds management",
+					"capability-description": "The ability to manage the rates and thresholds used in the determination of assessments."
+				},
+				{
+					"capability-name": "Assessment period management",
+					"capability-description": "The ability to manage the date periods to which a set of assessment rules and thresholds apply."
 				}
 			]
 		},
