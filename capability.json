@@ -65,7 +65,9 @@
 				{
 					"capability-name": "Valuation factor identification",
 					"capability-description": "The ability to generate and quantify the factors that impact on property valuation",
-					"capability": []
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Valuation bench marking",
@@ -130,6 +132,8 @@
 			"capability-description": "The ability to manage notifications and advice notices",
 			"capability": [
 				{
+					"capability-name": "management",
+					"capability-description": "Notice definition",
 					"capability": []
 				}
 			]
