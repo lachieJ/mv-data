@@ -7,15 +7,24 @@
 			"capability": [
 				{
 					"capability-name": "Assessment rule management",
-					"capability-description": "The ability to manage business rules that enable the assessment of a liability for or an exemption from a tax and charge."
+					"capability-description": "The ability to manage business rules that enable the assessment of a liability for or an exemption from a tax and charge.",
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Assessment rates and thresholds management",
-					"capability-description": "The ability to manage the rates and thresholds used in the determination of assessments."
+					"capability-description": "The ability to manage the rates and thresholds used in the determination of assessments.",
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Assessment period management",
-					"capability-description": "The ability to manage the date periods to which a set of assessment rules and thresholds apply."
+					"capability-description": "The ability to manage the date periods to which a set of assessment rules and thresholds apply.",
+					"capability": [
+						{}
+					]
 				}
 			]
 		},
@@ -25,19 +34,31 @@
 			"capability": [
 				{
 					"capability-name": "New lease management",
-					"capability-description": "The ability to define new leases"
+					"capability-description": "The ability to define new leases",
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Surrender and re-grant management",
-					"capability-description": "The ability to manage the surrender of a lease and the issuing of new leases with revised property characteristics."
+					"capability-description": "The ability to manage the surrender of a lease and the issuing of new leases with revised property characteristics.",
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Lease variation management",
-					"capability-description": "The ability to manage variations to leases that may alter their definition or there approve usage."
+					"capability-description": "The ability to manage variations to leases that may alter their definition or there approve usage.",
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Property ownership management",
-					"capability-description": "The ability to manage the ownership of a parcel of land."
+					"capability-description": "The ability to manage the ownership of a parcel of land.",
+					"capability": [
+						{}
+					]
 				}
 			]
 		},
@@ -47,23 +68,38 @@
 			"capability": [
 				{
 					"capability-name": "Valuation factor identification",
-					"capability-description": "The ability to generate and quantify the factors that impact on property valuation"
+					"capability-description": "The ability to generate and quantify the factors that impact on property valuation",
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Valuation bench marking",
-					"capability-description": "The ability to identify comparative ratings between the values of properties."
+					"capability-description": "The ability to identify comparative ratings between the values of properties.",
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Valuation property matching",
-					"capability-description": "The ability to match property characteristics to valuation factors and valuation bench marks"
+					"capability-description": "The ability to match property characteristics to valuation factors and valuation bench marks",
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Valuation generation",
-					"capability-description": "The ability to generate a valuation for an identified property."
+					"capability-description": "The ability to generate a valuation for an identified property.",
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Valuation validation",
-					"capability-description": "The ability to validate a generated valuation"
+					"capability-description": "The ability to validate a generated valuation",
+					"capability": [
+						{}
+					]
 				}
 			]
 		},
@@ -72,19 +108,31 @@
 			"capability": [
 				{
 					"capability-name": "Accounts receivable management",
-					"capability-description": "The ability to manage accounts receivable"
+					"capability-description": "The ability to manage accounts receivable",
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Accounts payable",
-					"capability-description": "Ability to manage accounts payable"
+					"capability-description": "Ability to manage accounts payable",
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Financial accounting",
-					"capability-description": "Ability to manage financial accounting"
+					"capability-description": "Ability to manage financial accounting",
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Management accounting",
-					"capability-description": "Ability to manage management accounting"
+					"capability-description": "Ability to manage management accounting",
+					"capability": [
+						{}
+					]
 				}
 			],
 			"capability-description": "The ability to manage the enterprises financial accounts."
@@ -93,12 +141,11 @@
 			"capability-name": "Notice management",
 			"capability-description": "The ability to manage notifications and advice notices",
 			"capability": [
-				{}
-			]
-		},
-		{
-			"capability": [
-				{}
+				{
+					"capability": [
+						{}
+					]
+				}
 			]
 		}
 	]
