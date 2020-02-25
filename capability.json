@@ -18,6 +18,14 @@
 				{
 					"capability-name": "New lease management",
 					"capability-description": "The ability to define new leases"
+				},
+				{
+					"capability-name": "Surrender and re-grant management",
+					"capability-description": "The ability to manage the surrender of a lease and the issuing of new leases with revised property characteristics."
+				},
+				{
+					"capability-name": "Lease variation management",
+					"capability-description": "The ability to manage variations to leases that may alter their definition or there approve usage."
 				}
 			]
 		},
