@@ -91,7 +91,7 @@
 		},
 		{
 			"capability-name": "Notice management",
-			"capability-description": "The ability to manage notifications and advices",
+			"capability-description": "The ability to manage notifications and advice notices",
 			"capability": [
 				{}
 			]
