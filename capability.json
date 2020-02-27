@@ -125,7 +125,7 @@
 					]
 				}
 			],
-			"capability-description": "The ability to manage the enterprises financial accounts."
+			"capability-description": "The ability to manage the enterprises financial accounts.\n<button>Click me</button>"
 		},
 		{
 			"capability-name": "Notice management",
