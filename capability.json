@@ -139,7 +139,7 @@
 			"capability-description": "The ability to manage notifications and advice notices",
 			"capability": [
 				{
-					"capability-name": "management",
+					"capability-name": "Notice design management",
 					"capability-description": "Notice definition",
 					"capability": []
 				}
