@@ -8,7 +8,9 @@
 				{
 					"capability-name": "Assessment rule management",
 					"capability-description": "The ability to manage business rules that enable the assessment of a liability for or an exemption from a tax and charge.",
-					"capability": []
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Assessment rates and thresholds management",
@@ -21,7 +23,10 @@
 					"capability-name": "Assessment period management",
 					"capability-description": "The ability to manage the date periods to which a set of assessment rules and thresholds apply.",
 					"capability": [
-						{}
+						{
+							"capability-name": "Assessment period information management",
+							"capability-description": "Ability to maintain the information needed to make assessments during a date time period"
+						}
 					]
 				}
 			]
@@ -33,7 +38,9 @@
 				{
 					"capability-name": "New lease management",
 					"capability-description": "The ability to define new leases",
-					"capability": []
+					"capability": [
+						{}
+					]
 				},
 				{
 					"capability-name": "Surrender and re-grant management",
