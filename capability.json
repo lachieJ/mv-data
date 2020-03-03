@@ -3,7 +3,7 @@
 	"capability": [
 		{
 			"capability-name": "Assessment management",
-			"capability-description": "The ability to manage the process of assessing liability for a tax or charge from the identification of an obligation to calculation and adjustment of liabilities.\n",
+			"capability-description": "The ability to manage the process of assessing liability for a tax or charge from the identification of an obligation to the calculation and adjustment of liabilities.",
 			"capability": [
 				{
 					"capability-name": "Assessment rule management",
