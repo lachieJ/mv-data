@@ -2,27 +2,6 @@
 	"businessName": "ACT Revenue Office",
 	"capability": [
 		{
-			"capability-name": "Property management",
-			"capability-description": "The ability to manage the identification and relationships of property relevant to revenue and rental bond management",
-			"capability": [
-				{
-					"capability-name": "New lease management",
-					"capability-description": "The ability to define new leases",
-					"capability": []
-				},
-				{
-					"capability-name": "Surrender and re-grant management",
-					"capability-description": "The ability to manage the surrender of a lease and the issuing of new leases with revised property characteristics.",
-					"capability": []
-				},
-				{
-					"capability-name": "Property ownership management",
-					"capability-description": "The ability to manage the ownership of a parcel of land.",
-					"capability": []
-				}
-			]
-		},
-		{
 			"capability-name": "Valuation management",
 			"capability-description": "The ability to value and re-value are parcel of land.",
 			"capability": [
@@ -59,6 +38,27 @@
 			],
 			"valueStreamStep": [
 				"\n\n                "
+			]
+		},
+		{
+			"capability-name": "Property management",
+			"capability-description": "The ability to manage the identification and relationships of property relevant to revenue and rental bond management",
+			"capability": [
+				{
+					"capability-name": "New lease management",
+					"capability-description": "The ability to define new leases",
+					"capability": []
+				},
+				{
+					"capability-name": "Surrender and re-grant management",
+					"capability-description": "The ability to manage the surrender of a lease and the issuing of new leases with revised property characteristics.",
+					"capability": []
+				},
+				{
+					"capability-name": "Property ownership management",
+					"capability-description": "The ability to manage the ownership of a parcel of land.",
+					"capability": []
+				}
 			]
 		},
 		{
