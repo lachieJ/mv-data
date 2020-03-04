@@ -118,6 +118,12 @@
 					"capability-name": "Notice design management",
 					"capability-description": "The ability to manage the development, testing and implementation of notice designs",
 					"capability": []
+				},
+				{
+					"capability-name": "Notice message matching",
+					"capability": [
+						{}
+					]
 				}
 			]
 		}
