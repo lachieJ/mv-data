@@ -2,6 +2,63 @@
 	"businessName": "ACT Revenue Office",
 	"capability": [
 		{
+			"capability-name": "Property management",
+			"capability-description": "The ability to manage the identification and relationships of property relevant to revenue and rental bond management",
+			"capability": [
+				{
+					"capability-name": "New lease management",
+					"capability-description": "The ability to define new leases",
+					"capability": []
+				},
+				{
+					"capability-name": "Surrender and re-grant management",
+					"capability-description": "The ability to manage the surrender of a lease and the issuing of new leases with revised property characteristics.",
+					"capability": []
+				},
+				{
+					"capability-name": "Property ownership management",
+					"capability-description": "The ability to manage the ownership of a parcel of land.",
+					"capability": []
+				}
+			]
+		},
+		{
+			"capability-name": "Valuation management",
+			"capability-description": "The ability to value and re-value are parcel of land.",
+			"capability": [
+				{
+					"capability-name": "Valuation factor identification",
+					"capability-description": "The ability to generate and quantify the factors that impact on property valuation",
+					"capability": []
+				},
+				{
+					"capability-name": "Lease variation management",
+					"capability-description": "The ability to manage variations to leases that may alter their definition or there approve usage.",
+					"capability": []
+				},
+				{
+					"capability-name": "Valuation bench marking",
+					"capability-description": "The ability to identify comparative ratings between the values of properties.",
+					"capability": []
+				},
+				{
+					"capability-name": "Valuation property matching",
+					"capability-description": "The ability to match property characteristics to valuation factors and valuation bench marks",
+					"capability": []
+				},
+				{
+					"capability-name": "Valuation generation",
+					"capability-description": "The ability to generate a valuation for an identified property.",
+					"capability": []
+				},
+				{
+					"capability-name": "Valuation validation",
+					"capability-description": "The ability to validate a generated valuation",
+					"capability": []
+				}
+			]
+		},
+		{
 			"capability-name": "Assessment management",
 			"capability-description": "The ability to manage the process of assessing liability for a tax or charge from the identification of an obligation to the calculation and adjustment of liabilities.",
 			"capability": [
@@ -24,63 +81,6 @@
 							"capability-description": "Ability to maintain the information needed to make assessments during a date time period"
 						}
 					]
-				}
-			]
-		},
-		{
-			"capability-name": "Property management",
-			"capability-description": "The ability to manage the identification and relationships of property relevant to revenue and rental bond management",
-			"capability": [
-				{
-					"capability-name": "New lease management",
-					"capability-description": "The ability to define new leases",
-					"capability": []
-				},
-				{
-					"capability-name": "Surrender and re-grant management",
-					"capability-description": "The ability to manage the surrender of a lease and the issuing of new leases with revised property characteristics.",
-					"capability": []
-				},
-				{
-					"capability-name": "Lease variation management",
-					"capability-description": "The ability to manage variations to leases that may alter their definition or there approve usage.",
-					"capability": []
-				},
-				{
-					"capability-name": "Property ownership management",
-					"capability-description": "The ability to manage the ownership of a parcel of land.",
-					"capability": []
-				}
-			]
-		},
-		{
-			"capability-name": "Valuation management",
-			"capability-description": "The ability to value and re-value are parcel of land.",
-			"capability": [
-				{
-					"capability-name": "Valuation factor identification",
-					"capability-description": "The ability to generate and quantify the factors that impact on property valuation",
-					"capability": []
-				},
-				{
-					"capability-name": "Valuation bench marking",
-					"capability-description": "The ability to identify comparative ratings between the values of properties.",
-					"capability": []
-				},
-				{
-					"capability-name": "Valuation property matching",
-					"capability-description": "The ability to match property characteristics to valuation factors and valuation bench marks",
-					"capability": []
-				},
-				{
-					"capability-name": "Valuation generation",
-					"capability-description": "The ability to generate a valuation for an identified property.",
-					"capability": []
-				},
-				{
-					"capability-name": "Valuation validation",
-					"capability-description": "The ability to validate a generated valuation",
-					"capability": []
 				}
 			]
 		},
