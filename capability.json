@@ -147,5 +147,12 @@
 				}
 			]
 		}
+	],
+	"valueStream": [
+		{
+			"valueStreamStep": [
+				{}
+			]
+		}
 	]
 }
