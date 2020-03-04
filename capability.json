@@ -6,28 +6,8 @@
 			"capability-description": "The ability to value and re-value are parcel of land.",
 			"capability": [
 				{
-					"capability-name": "Valuation factor identification",
-					"capability-description": "The ability to generate and quantify the factors that impact on property valuation",
-					"capability": []
-				},
-				{
 					"capability-name": "Lease variation management",
 					"capability-description": "The ability to manage variations to leases that may alter their definition or there approve usage.",
-					"capability": []
-				},
-				{
-					"capability-name": "Valuation bench marking",
-					"capability-description": "The ability to identify comparative ratings between the values of properties.",
-					"capability": []
-				},
-				{
-					"capability-name": "Valuation property matching",
-					"capability-description": "The ability to match property characteristics to valuation factors and valuation bench marks",
-					"capability": []
-				},
-				{
-					"capability-name": "Valuation generation",
-					"capability-description": "The ability to generate a valuation for an identified property.",
 					"capability": []
 				},
 				{
@@ -58,6 +38,13 @@
 					"capability-name": "Property ownership management",
 					"capability-description": "The ability to manage the ownership of a parcel of land.",
 					"capability": []
+				},
+				{
+					"capability-name": "Property management",
+					"capability-description": "The ability to manage the identification and relationships of property relevant to revenue and rental bond management",
+					"capability": [
+						{}
+					]
 				}
 			]
 		},
