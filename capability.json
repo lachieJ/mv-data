@@ -121,8 +121,25 @@
 				},
 				{
 					"capability-name": "Notice message matching",
+					"capability-description": "The ability to match communication messages to the appropriate notice",
 					"capability": [
 						{}
+					]
+				}
+			]
+		},
+		{
+			"capability-name": "Client management",
+			"capability-description": "The ability to manage clients their relationships and their roles. ",
+			"capability": [
+				{
+					"capability-name": "Client address management",
+					"capability-description": "The ability to maintain and validate client addresses ",
+					"capability": [
+						{
+							"capability-name": "Client address validation ",
+							"capability-description": "The ability to validate an address and it's use by a client"
+						}
 					]
 				}
 			]
