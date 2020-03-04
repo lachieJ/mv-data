@@ -151,8 +151,12 @@
 	"valueStream": [
 		{
 			"valueStreamStep": [
+				{
+					"valueStreamStep-name": "Configure assessment run"
+				},
 				{}
-			]
+			],
+			"valueStream-name": "Assessment to payment"
 		}
 	]
 }
