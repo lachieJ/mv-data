@@ -8,17 +8,13 @@
 				{
 					"capability-name": "Client address management",
 					"capability-description": "The ability to maintain and validate client addresses ",
-					"capability": [
-						{
-							"capability-name": "Client address validation ",
-							"capability-description": "The ability to validate an address and it's use by a client"
-						}
-					]
+					"capability": []
 				},
 				{
 					"capability": [
 						{}
-					]
+					],
+					"capability-name": "Client role management"
 				}
 			]
 		},
