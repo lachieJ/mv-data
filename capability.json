@@ -115,18 +115,12 @@
 						{
 							"capability-name": "Manage direct debit",
 							"capability-description": "The ability to manage direct debit arrangements"
+						},
+						{
+							"capability-name": "Manage debt recovery",
+							"capability-description": "The ability to manage accounts in arrears"
 						}
 					]
-				},
-				{
-					"capability-name": "Financial accounting",
-					"capability-description": "Ability to manage financial accounting",
-					"capability": []
-				},
-				{
-					"capability-name": "Management accounting",
-					"capability-description": "Ability to manage management accounting",
-					"capability": []
 				}
 			],
 			"capability-description": "The ability to manage the enterprises financial accounts. "
