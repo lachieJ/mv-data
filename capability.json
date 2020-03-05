@@ -136,9 +136,7 @@
 				{
 					"capability-name": "Notice production",
 					"capability-description": "The ability to generate notices incorporating",
-					"capability": [
-						{}
-					]
+					"capability": []
 				}
 			]
 		}
