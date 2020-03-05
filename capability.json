@@ -99,7 +99,20 @@
 				{
 					"capability-name": "Manage accounts payable",
 					"capability-description": "Ability to manage accounts payable",
-					"capability": []
+					"capability": [
+						{
+							"capability-name": "Manage statement production",
+							"capability-description": "The ability to manage the generation, and distribution of account statements"
+						},
+						{
+							"capability-name": "Manage payments",
+							"capability-description": "The ability to manage the application of payments"
+						},
+						{
+							"capability-name": "Manage direct debit",
+							"capability-description": "The ability to manage direct debit arrangements"
+						}
+					]
 				},
 				{
 					"capability-name": "Financial accounting",
