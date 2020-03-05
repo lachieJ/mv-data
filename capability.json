@@ -2,22 +2,19 @@
 	"businessName": "ACT Revenue Office",
 	"capability": [
 		{
-			"capability-name": "Valuation management",
-			"capability-description": "The ability to value and re-value are parcel of land.",
+			"capability-name": "Client management",
+			"capability-description": "The ability to manage clients their relationships and their roles. ",
 			"capability": [
 				{
-					"capability-name": "Lease variation management",
-					"capability-description": "The ability to manage variations to leases that may alter their definition or there approve usage.",
-					"capability": []
-				},
-				{
-					"capability-name": "Valuation validation",
-					"capability-description": "The ability to validate a generated valuation",
-					"capability": []
+					"capability-name": "Client address management",
+					"capability-description": "The ability to maintain and validate client addresses ",
+					"capability": [
+						{
+							"capability-name": "Client address validation ",
+							"capability-description": "The ability to validate an address and it's use by a client"
+						}
+					]
 				}
-			],
-			"valueStreamStep": [
-				"\n\n                "
 			]
 		},
 		{
@@ -39,6 +36,25 @@
 					"capability-description": "The ability to manage the identification and relationships of property relevant to revenue and rental bond management",
 					"capability": []
 				}
+			]
+		},
+		{
+			"capability-name": "Valuation management",
+			"capability-description": "The ability to value and re-value are parcel of land.",
+			"capability": [
+				{
+					"capability-name": "Lease variation management",
+					"capability-description": "The ability to manage variations to leases that may alter their definition or there approve usage.",
+					"capability": []
+				},
+				{
+					"capability-name": "Valuation validation",
+					"capability-description": "The ability to validate a generated valuation",
+					"capability": []
+				}
+			],
+			"valueStreamStep": [
+				"\n\n                "
 			]
 		},
 		{
@@ -122,22 +138,6 @@
 					"capability-description": "The ability to generate notices incorporating",
 					"capability": [
 						{}
-					]
-				}
-			]
-		},
-		{
-			"capability-name": "Client management",
-			"capability-description": "The ability to manage clients their relationships and their roles. ",
-			"capability": [
-				{
-					"capability-name": "Client address management",
-					"capability-description": "The ability to maintain and validate client addresses ",
-					"capability": [
-						{
-							"capability-name": "Client address validation ",
-							"capability-description": "The ability to validate an address and it's use by a client"
-						}
 					]
 				}
 			]
