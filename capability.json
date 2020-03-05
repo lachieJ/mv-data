@@ -14,7 +14,8 @@
 					"capability": [
 						{}
 					],
-					"capability-name": "Client role management"
+					"capability-name": "Client role management",
+					"capability-description": "The ability to manage the relationship between clients and business roles"
 				}
 			]
 		},
