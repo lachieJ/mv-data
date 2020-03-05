@@ -149,7 +149,10 @@
 					"valueStreamStep-name": "Apply annual revaluation"
 				},
 				{
-					"valueStreamStep-name": "Configure assessment run"
+					"valueStreamStep-name": "Assess properties"
+				},
+				{
+					"valueStreamStep-name": "Generate notices"
 				}
 			],
 			"valueStream-name": "Assessment to payment",
