@@ -37,9 +37,7 @@
 				{
 					"capability-name": "Property management",
 					"capability-description": "The ability to manage the identification and relationships of property relevant to revenue and rental bond management",
-					"capability": [
-						{}
-					]
+					"capability": []
 				}
 			]
 		},
@@ -107,6 +105,20 @@
 				{
 					"capability-name": "Notice message matching",
 					"capability-description": "The ability to match communication messages to the appropriate notice",
+					"capability": []
+				},
+				{
+					"capability-name": "Notice configuration management",
+					"capability-description": "The ability to manage the configuration of notices",
+					"capability": []
+				},
+				{
+					"capability-name": "Notice account matching",
+					"capability-description": "The ability to match a notice to account requirements",
+					"capability": []
+				},
+				{
+					"capability-name": "Notice generation ",
 					"capability": [
 						{}
 					]
