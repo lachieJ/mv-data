@@ -30,11 +30,6 @@
 					"capability": []
 				},
 				{
-					"capability-name": "Surrender and re-grant management",
-					"capability-description": "The ability to manage the surrender of a lease and the issuing of new leases with revised property characteristics.",
-					"capability": []
-				},
-				{
 					"capability-name": "Property ownership management",
 					"capability-description": "The ability to manage the ownership of a parcel of land.",
 					"capability": []
