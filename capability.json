@@ -76,7 +76,7 @@
 					"capability": []
 				},
 				{
-					"capability-name": "Accounts payable",
+					"capability-name": "Manage accounts payable",
 					"capability-description": "Ability to manage accounts payable",
 					"capability": []
 				},
@@ -118,7 +118,8 @@
 					"capability": []
 				},
 				{
-					"capability-name": "Notice generation ",
+					"capability-name": "Notice production",
+					"capability-description": "The ability to generate notices incorporating",
 					"capability": [
 						{}
 					]
@@ -153,6 +154,9 @@
 				},
 				{
 					"valueStreamStep-name": "Generate notices"
+				},
+				{
+					"valueStreamStep-name": "Manage debts"
 				}
 			],
 			"valueStream-name": "Assessment to payment",
