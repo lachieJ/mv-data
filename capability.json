@@ -134,9 +134,11 @@
 		{
 			"valueStreamStep": [
 				{
-					"valueStreamStep-name": "Configure assessment run"
+					"valueStreamStep-name": "Apply annual revaluation"
 				},
-				{}
+				{
+					"valueStreamStep-name": "Configure assessment run"
+				}
 			],
 			"valueStream-name": "Assessment to payment",
 			"valueStream-description": "The flow from assessing a property liability to receiving payment."
