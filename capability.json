@@ -14,6 +14,11 @@
 							"capability-description": "The ability to validate an address and it's use by a client"
 						}
 					]
+				},
+				{
+					"capability": [
+						{}
+					]
 				}
 			]
 		},
