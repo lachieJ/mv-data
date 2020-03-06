@@ -175,6 +175,13 @@
 					"valueStreamStep-name": "Sell a property"
 				}
 			]
+		},
+		{
+			"valueStream-name": "Purchase an investment property",
+			"valueStream-description": "Buying another property",
+			"valueStreamStep": [
+				{}
+			]
 		}
 	]
 }
