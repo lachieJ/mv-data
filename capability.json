@@ -160,8 +160,20 @@
 	],
 	"valueStream": [
 		{
+			"valueStream-name": "Purchase a home",
 			"valueStreamStep": [
-				{}
+				{
+					"valueStreamStep-name": "Purchase a property"
+				},
+				{
+					"valueStreamStep-name": "Live in a property"
+				},
+				{
+					"valueStreamStep-name": "Stay in a property"
+				},
+				{
+					"valueStreamStep-name": "Sell a property"
+				}
 			]
 		}
 	]
