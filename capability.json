@@ -11,9 +11,7 @@
 					"capability": []
 				},
 				{
-					"capability": [
-						{}
-					],
+					"capability": [],
 					"capability-name": "Client role management",
 					"capability-description": "The ability to manage the relationship between clients and business roles"
 				}
@@ -41,9 +39,7 @@
 				{
 					"capability-name": "Lease variation management",
 					"capability-description": "The ability to manage variations to definition and use of a land parcel",
-					"capability": [
-						{}
-					]
+					"capability": []
 				}
 			]
 		},
