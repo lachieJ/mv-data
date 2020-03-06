@@ -14,6 +14,11 @@
 					"capability": [],
 					"capability-name": "Client role management",
 					"capability-description": "The ability to manage the relationship between clients and business roles"
+				},
+				{
+					"capability-name": "Client relationship management",
+					"capability-description": "The ability to manage relationships between clients",
+					"capability": []
 				}
 			]
 		},
@@ -156,21 +161,8 @@
 	"valueStream": [
 		{
 			"valueStreamStep": [
-				{
-					"valueStreamStep-name": "Apply annual revaluation"
-				},
-				{
-					"valueStreamStep-name": "Assess properties"
-				},
-				{
-					"valueStreamStep-name": "Generate notices"
-				},
-				{
-					"valueStreamStep-name": "Manage debts"
-				}
-			],
-			"valueStream-name": "Assessment to payment",
-			"valueStream-description": "The flow from assessing a property liability to receiving payment."
+				{}
+			]
 		}
 	]
 }
