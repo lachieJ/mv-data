@@ -21,7 +21,7 @@
 					"capability": []
 				},
 				{
-					"capability-name": "Client identity management",
+					"capability-name": "Client identity  management",
 					"capability-description": "The ability to manage client identities",
 					"capability": []
 				}
@@ -180,6 +180,11 @@
 		{
 			"capability-name": "Case management",
 			"capability-description": "The ability to manage the identification, allocation and resolution of cases requiring ongoing attention",
+			"capability": []
+		},
+		{
+			"capability-name": "Lodgement management",
+			"capability-description": "The ability manage the receipt of information from tax payers",
 			"capability": []
 		}
 	],
