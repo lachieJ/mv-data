@@ -190,7 +190,18 @@
 		{
 			"capability-name": "Lodgement management",
 			"capability-description": "The ability manage the receipt of information from tax payers",
-			"capability": []
+			"capability": [
+				{
+					"capability-name": "Submission management",
+					"capability-description": "The ability to manage unstructured submissions and correspondence",
+					"capability": []
+				},
+				{
+					"capability-name": "Form lodgement management",
+					"capability-description": "The ability to manage the lodgement of structured forms",
+					"capability": []
+				}
+			]
 		},
 		{
 			"capability-name": "Case management",
