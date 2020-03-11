@@ -63,7 +63,7 @@
 			"capability-description": "The ability to manage the process of assessing liability for a tax or charge from the identification of an obligation to the calculation and adjustment of liabilities.",
 			"capability": [
 				{
-					"capability-name": "Assessment rule management",
+					"capability-name": "Charge calculation management",
 					"capability-description": "The ability to manage business rules that enable the assessment of a liability for or an exemption from a tax and charge.",
 					"capability": []
 				},
@@ -88,13 +88,8 @@
 			"capability-name": "Financial account management",
 			"capability": [
 				{
-					"capability-name": "Accounts receivable management",
-					"capability-description": "The ability to manage accounts receivable",
-					"capability": []
-				},
-				{
-					"capability-name": "Manage accounts payable",
-					"capability-description": "Ability to manage accounts payable",
+					"capability-name": "Manage accounts receivable",
+					"capability-description": "Ability to manage accounts receivable",
 					"capability": [
 						{
 							"capability-name": "Manage statement production",
