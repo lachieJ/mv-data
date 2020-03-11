@@ -219,7 +219,7 @@
 				},
 				{
 					"capability-name": "Case action management",
-					"capability-description": "The ability to ",
+					"capability-description": "The ability to apply and record actions applied to a case during its lifecycle ",
 					"capability": []
 				}
 			]
