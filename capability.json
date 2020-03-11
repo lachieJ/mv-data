@@ -19,6 +19,11 @@
 					"capability-name": "Client relationship management",
 					"capability-description": "The ability to manage relationships between clients",
 					"capability": []
+				},
+				{
+					"capability-name": "Client identity management",
+					"capability-description": "The ability to manage client identities",
+					"capability": []
 				}
 			]
 		},
@@ -51,25 +56,6 @@
 					"capability-description": "The ability to manage the valuation and revaluation of parcels of land",
 					"capability": []
 				}
-			]
-		},
-		{
-			"capability-name": "Valuation management",
-			"capability-description": "The ability to value and re-value are parcel of land.",
-			"capability": [
-				{
-					"capability-name": "Lease variation management",
-					"capability-description": "The ability to manage variations to leases that may alter their definition or there approve usage.",
-					"capability": []
-				},
-				{
-					"capability-name": "Valuation validation",
-					"capability-description": "The ability to validate a generated valuation",
-					"capability": []
-				}
-			],
-			"valueStreamStep": [
-				"\n\n                "
 			]
 		},
 		{
