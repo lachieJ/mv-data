@@ -161,9 +161,14 @@
 					"capability": []
 				},
 				{
+					"capability-name": "Compliance",
 					"capability": []
 				}
 			]
+		},
+		{
+			"capability-name": "Case ",
+			"capability": []
 		}
 	],
 	"valueStream": [
