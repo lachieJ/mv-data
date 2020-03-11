@@ -52,11 +52,6 @@
 					"capability": []
 				},
 				{
-					"capability-name": "Property management",
-					"capability-description": "The ability to manage the identification and relationships of property relevant to revenue and rental bond management",
-					"capability": []
-				},
-				{
 					"capability-name": "Lease variation management",
 					"capability-description": "The ability to manage variations to definition and use of a land parcel",
 					"capability": []
@@ -64,6 +59,11 @@
 				{
 					"capability-name": "Parcel valuation management",
 					"capability-description": "The ability to manage the application of valuations and revaluations to parcels of land for revenue and concessional purposes",
+					"capability": []
+				},
+				{
+					"capability-name": "Property definition management",
+					"capability-description": "The ability to manage the identification, addressing and definition of land parcels",
 					"capability": []
 				}
 			]
