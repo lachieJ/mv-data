@@ -75,12 +75,7 @@
 				{
 					"capability-name": "Assessment period management",
 					"capability-description": "The ability to manage the date periods to which a set of assessment rules and thresholds apply.",
-					"capability": [
-						{
-							"capability-name": "Assessment period information management",
-							"capability-description": "Ability to maintain the information needed to make assessments during a date time period"
-						}
-					]
+					"capability": []
 				}
 			]
 		},
@@ -137,8 +132,8 @@
 					"capability": []
 				},
 				{
-					"capability-name": "Notice production",
-					"capability-description": "The ability to generate notices incorporating",
+					"capability-name": "Notice issue management",
+					"capability-description": "The ability to generate notices incorporating appropriate assessment, account and messaging information",
 					"capability": []
 				}
 			]
