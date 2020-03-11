@@ -63,7 +63,7 @@
 				},
 				{
 					"capability-name": "Parcel valuation management",
-					"capability-description": "The ability to manage the application of valuations and revaluations to parcels of land",
+					"capability-description": "The ability to manage the application of valuations and revaluations to parcels of land for revenue and concessional purposes",
 					"capability": []
 				}
 			]
