@@ -24,6 +24,16 @@
 					"capability-name": "Client identity  management",
 					"capability-description": "The ability to manage client identities",
 					"capability": []
+				},
+				{
+					"capability-name": "Client authentication management",
+					"capability-description": "The ability to manage the confirmation of client identity in interactions between the enterprise and the client",
+					"capability": []
+				},
+				{
+					"capability-name": "Client authorisation management",
+					"capability-description": "The ability to manage the authority of clients to carry our particular interactions with the enterprise",
+					"capability": []
 				}
 			]
 		},
