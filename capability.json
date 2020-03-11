@@ -196,6 +196,9 @@
 			"capability-name": "Lodgement management",
 			"capability-description": "The ability manage the receipt of information from tax payers",
 			"capability": []
+		},
+		{
+			"capability": []
 		}
 	],
 	"valueStream": [
