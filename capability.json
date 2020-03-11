@@ -206,7 +206,23 @@
 		{
 			"capability-name": "Case management",
 			"capability-description": "The ability to manage the identification, allocation and resolution of cases requiring ongoing attention",
-			"capability": []
+			"capability": [
+				{
+					"capability-name": "Case configuration management",
+					"capability-description": "The ability to configure case management operations to suit the requirements of particular types of cases",
+					"capability": []
+				},
+				{
+					"capability-name": "Case allocation management",
+					"capability-description": "The ability to allocate cases for resolution along with the information needed to facilitate resolution",
+					"capability": []
+				},
+				{
+					"capability-name": "Case action management",
+					"capability-description": "The ability to ",
+					"capability": []
+				}
+			]
 		}
 	],
 	"valueStream": [
