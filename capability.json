@@ -95,12 +95,15 @@
 							"capability-description": "The ability to manage the application of payments"
 						},
 						{
-							"capability-name": "Manage direct debit",
+							"capability-name": "Direct debit management",
 							"capability-description": "The ability to manage direct debit arrangements"
 						},
 						{
 							"capability-name": "Manage debt recovery",
 							"capability-description": "The ability to manage accounts in arrears"
+						},
+						{
+							"capability-name": "Payment plan management"
 						}
 					]
 				},
@@ -128,7 +131,7 @@
 				},
 				{
 					"capability-name": "Notice configuration management",
-					"capability-description": "The ability to manage the configuration of notices",
+					"capability-description": "The ability to manage the configuration of notices including layout, text, graphics, variable data and generation requirements",
 					"capability": []
 				},
 				{
@@ -139,6 +142,25 @@
 				{
 					"capability-name": "Notice issue management",
 					"capability-description": "The ability to generate notices incorporating appropriate assessment, account and messaging information",
+					"capability": []
+				}
+			]
+		},
+		{
+			"capability-name": "Compliance management",
+			"capability-description": "The ability to assure, ensure and enforce compliance with policy and legislation ",
+			"capability": [
+				{
+					"capability-name": "Customer risk management",
+					"capability-description": "The ability to identify, quantify and mitigate the risk of customer non-compliance",
+					"capability": []
+				},
+				{
+					"capability-name": "Case management",
+					"capability-description": "The ability to manage the identification, allocation and resolution of cases requiring ongoing attention",
+					"capability": []
+				},
+				{
 					"capability": []
 				}
 			]
