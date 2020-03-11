@@ -156,18 +156,25 @@
 					"capability": []
 				},
 				{
-					"capability-name": "Case management",
+					"capability-name": "Compliance case detection ",
 					"capability-description": "The ability to manage the identification, allocation and resolution of cases requiring ongoing attention",
 					"capability": []
 				},
 				{
-					"capability-name": "Compliance",
+					"capability-name": "Compliance monitoring",
+					"capability-description": "The ability manage the development, detection and monitoring of compliance and non-compliance across business activities",
+					"capability": []
+				},
+				{
+					"capability-name": "Compliance reporting",
+					"capability-description": "The ability to provide quantitative and qualitative reporting on the application of policy and legislation",
 					"capability": []
 				}
 			]
 		},
 		{
-			"capability-name": "Case ",
+			"capability-name": "Case management",
+			"capability-description": "The ability to manage the identification, allocation and resolution of cases requiring ongoing attention",
 			"capability": []
 		}
 	],
