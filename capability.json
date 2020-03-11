@@ -86,6 +86,11 @@
 					"capability-name": "Assessment period management",
 					"capability-description": "The ability to manage the date periods to which a set of assessment rules and thresholds apply.",
 					"capability": []
+				},
+				{
+					"capability-name": "Eligibility assessment management",
+					"capability-description": "The ability to manage the definition and application  of business rules to implement eligibility policies. ",
+					"capability": []
 				}
 			]
 		},
@@ -132,21 +137,6 @@
 				{
 					"capability-name": "Notice design management",
 					"capability-description": "The ability to manage the development, testing and implementation of notice designs",
-					"capability": []
-				},
-				{
-					"capability-name": "Notice message matching",
-					"capability-description": "The ability to match communication messages to the appropriate notice",
-					"capability": []
-				},
-				{
-					"capability-name": "Notice configuration management",
-					"capability-description": "The ability to manage the configuration of notices including layout, text, graphics, variable data and generation requirements",
-					"capability": []
-				},
-				{
-					"capability-name": "Notice account matching",
-					"capability-description": "The ability to match a notice to account requirements",
 					"capability": []
 				},
 				{
