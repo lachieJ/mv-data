@@ -221,6 +221,11 @@
 					"capability-name": "Case action management",
 					"capability-description": "The ability to apply and record actions applied to a case during its lifecycle ",
 					"capability": []
+				},
+				{
+					"capability-name": "Case management reporting",
+					"capability-description": "The ability to report on activities conducted and the effectiveness of case management ",
+					"capability": []
 				}
 			]
 		}
