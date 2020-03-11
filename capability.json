@@ -91,7 +91,7 @@
 							"capability-description": "The ability to manage the generation, and distribution of account statements"
 						},
 						{
-							"capability-name": "Manage payments",
+							"capability-name": "Payment collections management",
 							"capability-description": "The ability to manage the application of payments"
 						},
 						{
@@ -103,6 +103,11 @@
 							"capability-description": "The ability to manage accounts in arrears"
 						}
 					]
+				},
+				{
+					"capability-name": "Bank reconciliation management",
+					"capability-description": "The ability to manage the reconciliation of bank account transactions",
+					"capability": []
 				}
 			],
 			"capability-description": "The ability to manage the enterprises financial accounts. "
