@@ -1,0 +1,17 @@
+{
+	"businessName": "Analysis Partners",
+	"valueStream": [
+		{
+			"valueStream-name": "Annual property revaluation",
+			"stakeholder-name": "ACT Commissioner of Revenue",
+			"valueProposition-name": "Properties are valued",
+			"valueItem": [],
+			"valueStreamStep": []
+		}
+	],
+	"capability": [
+		{
+			"capability": []
+		}
+	]
+}
