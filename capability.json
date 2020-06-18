@@ -1,480 +1,477 @@
 {
-  "businessName": "ACT Revenue Office",
-  "capability": [
-    {
-      "capability-name": "Submission management",
-      "capability-description": "The ability to manage the lodgement of notifications by tax payers",
-      "capability": [
-        {
-          "capability-name": "Inquiry management",
-          "capability-description": "The ability to receive requests for information about liabilities, eligibility and processing",
-          "capability": []
-        },
-        {
-          "capability-name": "Change of circumstance management",
-          "capability-description": "The ability to manage the receipt, assessment and application of advice of change of circumstance ",
-          "capability": []
-        },
-        {
-          "capability-name": "Lodgement management",
-          "capability-description": "The ability to manage legislatively required returns",
-          "capability": []
-        }
-      ]
-    },
-    {
-      "capability-name": "Data management",
-      "capability-description": "The ability to manage data used as the basis for the administration of revenue lines",
-      "capability": [
-        {
-          "capability-name": "Data load management",
-          "capability-description": "The ability to load data for analysis and use. ",
-          "capability": []
-        },
-        {
-          "capability": []
-        }
-      ]
-    }
-  ],
-  "valueStream": [
-    {
-      "valueStreamStep": [
-        {
-          "valueStreamStep-name": "Information management",
-          "valueStreamStep-description": "The acquisition of data that informs the management of property based revenue lines",
-          "involvedCapability": [
-            {
-              "capability-name": "Valuation management",
-              "involvedStakeholder": [],
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Property valuation",
-                  "informationConceptState-Name": "Current"
-                },
-                {
-                  "informationConcept-Name": "Average valuation",
-                  "informationConceptState-Name": "Current"
-                }
-              ]
-            },
-            {
-              "capability-name": "Land title data management",
-              "involvedStakeholder": [],
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Land use",
-                  "informationConceptState-Name": "Current"
-                },
-                {
-                  "informationConcept-Name": "Surrender and regrant",
-                  "informationConceptState-Name": "Applied"
-                },
-                {
-                  "informationConcept-Name": "Land title",
-                  "informationConceptState-Name": "Current"
-                }
-              ]
-            },
-            {
-              "capability-name": "Client data management",
-              "involvedStakeholder": [],
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Notification preference",
-                  "informationConceptState-Name": "Current"
-                }
-              ]
-            },
-            {
-              "capability-name": "Client preference management",
-              "involvedStakeholder": [],
-              "outputValueItem": []
-            }
-          ],
-          "involvedStakeholder": [],
-          "valueItem": [
-            {
-              "informationConcept-Name": "Property ownership",
-              "informationConceptState-Name": "Exists"
-            },
-            {
-              "informationConcept-Name": "Property valuation",
-              "informationConceptState-Name": "Current"
-            },
-            {
-              "informationConcept-Name": "Property land use",
-              "informationConceptState-Name": "Current"
-            }
-          ]
-        },
-        {
-          "valueStreamStep-name": "Awareness and registration",
-          "valueStreamStep-description": "Clients are introduced to and on-boarded as users of the service\n",
-          "involvedCapability": [
-            {
-              "capability-name": "Client registration management",
-              "involvedStakeholder": [],
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Client identity",
-                  "informationConceptState-Name": "Confirmed"
-                },
-                {
-                  "informationConcept-Name": "Client authorisation",
-                  "informationConceptState-Name": "Confirmed"
-                }
-              ]
-            },
-            {
-              "capability-name": "Customer management",
-              "involvedStakeholder": [],
-              "outputValueItem": []
-            },
-            {
-              "capability-name": "Notification management",
-              "involvedStakeholder": [],
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Service announcement",
-                  "informationConceptState-Name": "Received"
-                }
-              ]
-            }
-          ],
-          "involvedStakeholder": [],
-          "valueItem": [
-            {
-              "informationConcept-Name": "Contact address",
-              "informationConceptState-Name": "Confirmed"
-            },
-            {
-              "informationConcept-Name": "Notification",
-              "informationConceptState-Name": "Sent"
-            },
-            {
-              "informationConcept-Name": "Record relationship",
-              "informationConceptState-Name": "Confirmed"
-            },
-            {
-              "informationConcept-Name": "Client identity",
-              "informationConceptState-Name": "Confirmed"
-            }
-          ]
-        },
-        {
-          "valueStreamStep-name": "Self assessment & service request",
-          "valueStreamStep-description": "Clients are able to use a variety of tools to manage their obligations\n",
-          "involvedCapability": [
-            {
-              "capability-name": "Lodgement management",
-              "involvedStakeholder": [],
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Client authentication",
-                  "informationConceptState-Name": "Confirmed"
-                }
-              ]
-            },
-            {
-              "capability-name": "Inquiry management",
-              "involvedStakeholder": [],
-              "outputValueItem": []
-            },
-            {
-              "capability-name": "Change of circumstances management",
-              "involvedStakeholder": [],
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Concession request",
-                  "informationConceptState-Name": "Assessed"
-                }
-              ]
-            }
-          ],
-          "involvedStakeholder": [],
-          "valueItem": [
-            {
-              "informationConcept-Name": "Submission",
-              "informationConceptState-Name": "Notify land tax exemption"
-            },
-            {
-              "informationConcept-Name": "Submission",
-              "informationConceptState-Name": "Notify land tax liability"
-            }
-          ]
-        },
-        {
-          "valueStreamStep-name": "Assessment and notification",
-          "valueStreamStep-description": "Obligations are assessed and the client is notified\n",
-          "involvedCapability": [
-            {
-              "capability-name": "Liability assessment management",
-              "involvedStakeholder": [],
-              "outputValueItem": []
-            },
-            {
-              "capability-name": "Eligibility assessment management",
-              "involvedStakeholder": [],
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Concession eligibility",
-                  "informationConceptState-Name": "Confirmed"
-                }
-              ]
-            },
-            {
-              "capability-name": "Notice issue management",
-              "involvedStakeholder": [],
-              "outputValueItem": []
-            },
-            {
-              "capability-name": "Charge calculation management ",
-              "involvedStakeholder": [],
-              "outputValueItem": []
-            },
-            {
-              "capability-name": "Adjustment management",
-              "involvedStakeholder": [],
-              "outputValueItem": []
-            }
-          ],
-          "involvedStakeholder": [],
-          "valueItem": [
-            {}
-          ]
-        },
-        {
-          "valueStreamStep-name": "Payment",
-          "valueStreamStep-description": "Clients are able to pay their obligations\n",
-          "involvedCapability": [
-            {
-              "capability-name": "Collections management",
-              "involvedStakeholder": [],
-              "outputValueItem": []
-            },
-            {
-              "capability-name": "Bank reconciliation",
-              "involvedStakeholder": [],
-              "outputValueItem": []
-            }
-          ],
-          "involvedStakeholder": [],
-          "valueItem": [
-            {}
-          ]
-        },
-        {
-          "valueStreamStep-name": "Debt management",
-          "valueStreamStep-description": "Clients are able to make arrangements to manage their debts\n",
-          "involvedCapability": [
-            {
-              "capability-name": "Payment arrangement management",
-              "involvedStakeholder": [],
-              "outputValueItem": []
-            },
-            {
-              "capability-name": "Statement management",
-              "involvedStakeholder": [],
-              "outputValueItem": []
-            }
-          ],
-          "involvedStakeholder": [],
-          "valueItem": [
-            {}
-          ]
-        }
-      ],
-      "valueStream-name": "Self manage land rent, rates and land tax obligations",
-      "valueStream-description": "My property based obligations are met",
-      "valueProposition-name": "Property obligations met",
-      "valueItem": [
-        {
-          "informationConcept-Name": "Property account",
-          "informationConceptState-Name": "Account balance is zero"
-        }
-      ],
-      "stakeholder-name": "Lease holder"
-    },
-    {
-      "valueStream-name": "Conduct annual parcel re-valuation",
-      "stakeholder-name": "Commissioner for ACT Revenue",
-      "valueProposition-name": "Parcels are valued",
-      "valueItem": [
-        {
-          "informationConcept-Name": "Parcel valuation",
-          "informationConceptState-Name": "AUV effective 1-July applied"
-        }
-      ],
-      "valueStreamStep": [
-        {
-          "valueStreamStep-name": "Maintain title and land use ",
-          "valueStreamStep-description": "The maintenance of details of the title holder for a parcel and the permitted use of a parcel is a prerequisite for valuing parcels. ",
-          "involvedCapability": [
-            {
-              "capability-name": "Lease variation management",
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Lease ",
-                  "informationConceptState-Name": "Parcel definition and permitted use changes applied"
-                }
-              ],
-              "involvedStakeholder": [
-                {
-                  "stakeholder-name": "Environment, Planning and Sustainable Development Directorate"
-                }
-              ]
-            },
-            {
-              "capability-name": "Parcel lease management ",
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Lease",
-                  "informationConceptState-Name": "New lease defined"
-                }
-              ],
-              "involvedStakeholder": [
-                {
-                  "stakeholder-name": "Land titles office"
-                },
-                {
-                  "stakeholder-name": "Environment, Planning and Sustainable Development Directorate"
-                }
-              ]
-            },
-            {
-              "capability-name": "Parcel title management",
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Parcel title",
-                  "informationConceptState-Name": "New title owners specified"
-                }
-              ],
-              "involvedStakeholder": [
-                {
-                  "stakeholder-name": "Land titles office"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "valueStreamStep-name": "Identify properties",
-          "valueStreamStep-description": "Properties requiring valuations are identified",
-          "involvedCapability": [
-            {
-              "involvedStakeholder": [
-                {
-                  "stakeholder-name": "Environment, Planning and Sustainable Development Directorate"
-                },
-                {
-                  "stakeholder-name": "Valuation Office"
-                }
-              ],
-              "capability-name": "Property parcel identification",
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Parcel",
-                  "informationConceptState-Name": "Parcels as at 1-Jan are available for valuation"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "valueStreamStep-name": "Make valuations",
-          "valueStreamStep-description": "A new valuation is made for parcels",
-          "involvedCapability": [
-            {
-              "capability-name": "Block valuation creation",
-              "involvedStakeholder": [
-                {
-                  "stakeholder-name": "Valuation Office"
-                }
-              ],
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Parcel valuation",
-                  "informationConceptState-Name": "A valuation is created for each parcel"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "valueStreamStep-name": "Review valuations",
-          "valueStreamStep-description": "Valuations are evaluated for completeness, consistency, accuracy and reasonableness and corrections are applied.",
-          "involvedCapability": [
-            {
-              "capability-name": "Valuation validation",
-              "involvedStakeholder": [
-                {
-                  "stakeholder-name": "Valuation Office"
-                },
-                {
-                  "stakeholder-name": "Commissioner for ACT  Revenue"
-                },
-                {
-                  "stakeholder-name": "ACTRO Operations Officer"
-                }
-              ],
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Parcel valuation",
-                  "informationConceptState-Name": "Valuation applied and reasonableness check passed"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "valueStreamStep-name": "Determine parcel valuations",
-          "valueStreamStep-description": "Valuations are made available for use in assessments",
-          "involvedCapability": [
-            {
-              "capability-name": "Valuation data management",
-              "involvedStakeholder": [
-                {
-                  "stakeholder-name": "ACTRO Operations Officer"
-                },
-                {
-                  "stakeholder-name": "Commissioner for ACT  Revenue"
-                }
-              ],
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Parcel valuation",
-                  "informationConceptState-Name": "Valuations as-at 1-Jan are applied"
-                },
-                {
-                  "informationConcept-Name": "Parcel valuation",
-                  "informationConceptState-Name": "Commissioner's schedule published"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "valueStreamStep-name": "Calculate average  unimproved value",
-          "involvedCapability": [
-            {
-              "involvedStakeholder": [
-                {
-                  "stakeholder-name": "ACTRO Operations Officer"
-                }
-              ],
-              "outputValueItem": [
-                {
-                  "informationConcept-Name": "Parcel valuation",
-                  "informationConceptState-Name": "AUV effective 1-July applied"
-                }
-              ],
-              "capability-name": "Assessment valuation calculation"
-            }
-          ],
-          "valueStreamStep-description": "Unimproved value is available for all properties that exist as at 30-June"
-        }
-      ]
-    }
-  ]
+	"businessName": "ACT Revenue Office",
+	"capability": [
+		{
+			"capability-name": "Submission management",
+			"capability-description": "The ability to manage the lodgement of notifications by tax payers",
+			"capability": [
+				{
+					"capability-name": "Inquiry management",
+					"capability-description": "The ability to receive requests for information about liabilities, eligibility and processing",
+					"capability": []
+				},
+				{
+					"capability-name": "Change of circumstance management",
+					"capability-description": "The ability to manage the receipt, assessment and application of advice of change of circumstance ",
+					"capability": []
+				},
+				{
+					"capability-name": "Lodgement management",
+					"capability-description": "The ability to manage legislatively required returns",
+					"capability": []
+				}
+			]
+		},
+		{
+			"capability-name": "Data management",
+			"capability-description": "The ability to manage data used as the basis for the administration of revenue lines",
+			"capability": [
+				{
+					"capability-name": "Data load management",
+					"capability-description": "The ability to load data for analysis and use. ",
+					"capability": []
+				},
+				{
+					"capability": []
+				}
+			]
+		}
+	],
+	"valueStream": [
+		{
+			"valueStreamStep": [
+				{
+					"valueStreamStep-name": "Information management",
+					"valueStreamStep-description": "The acquisition of data that informs the management of property based revenue lines",
+					"involvedCapability": [
+						{
+							"capability-name": "Valuation management",
+							"involvedStakeholder": [],
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Property valuation",
+									"informationConceptState-Name": "Current"
+								},
+								{
+									"informationConcept-Name": "Average valuation",
+									"informationConceptState-Name": "Current"
+								}
+							]
+						},
+						{
+							"capability-name": "Land title data management",
+							"involvedStakeholder": [],
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Land use",
+									"informationConceptState-Name": "Current"
+								},
+								{
+									"informationConcept-Name": "Surrender and regrant",
+									"informationConceptState-Name": "Applied"
+								},
+								{
+									"informationConcept-Name": "Land title",
+									"informationConceptState-Name": "Current"
+								}
+							]
+						},
+						{
+							"capability-name": "Client data management",
+							"involvedStakeholder": [],
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Notification preference",
+									"informationConceptState-Name": "Current"
+								}
+							]
+						},
+						{
+							"capability-name": "Client preference management",
+							"involvedStakeholder": [],
+							"outputValueItem": []
+						}
+					],
+					"involvedStakeholder": [],
+					"valueItem": [
+						{
+							"informationConcept-Name": "Property ownership",
+							"informationConceptState-Name": "Exists"
+						},
+						{
+							"informationConcept-Name": "Property valuation",
+							"informationConceptState-Name": "Current"
+						},
+						{
+							"informationConcept-Name": "Property land use",
+							"informationConceptState-Name": "Current"
+						}
+					]
+				},
+				{
+					"valueStreamStep-name": "Awareness and registration",
+					"valueStreamStep-description": "Clients are introduced to and on-boarded as users of the service\n",
+					"involvedCapability": [
+						{
+							"capability-name": "Client registration management",
+							"involvedStakeholder": [],
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Client identity",
+									"informationConceptState-Name": "Confirmed"
+								},
+								{
+									"informationConcept-Name": "Client authorisation",
+									"informationConceptState-Name": "Confirmed"
+								}
+							]
+						},
+						{
+							"capability-name": "Customer management",
+							"involvedStakeholder": [],
+							"outputValueItem": []
+						},
+						{
+							"capability-name": "Notification management",
+							"involvedStakeholder": [],
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Service announcement",
+									"informationConceptState-Name": "Received"
+								}
+							]
+						}
+					],
+					"involvedStakeholder": [],
+					"valueItem": [
+						{
+							"informationConcept-Name": "Contact address",
+							"informationConceptState-Name": "Confirmed"
+						},
+						{
+							"informationConcept-Name": "Notification",
+							"informationConceptState-Name": "Sent"
+						},
+						{
+							"informationConcept-Name": "Record relationship",
+							"informationConceptState-Name": "Confirmed"
+						},
+						{
+							"informationConcept-Name": "Client identity",
+							"informationConceptState-Name": "Confirmed"
+						}
+					]
+				},
+				{
+					"valueStreamStep-name": "Self assessment & service request",
+					"valueStreamStep-description": "Clients are able to use a variety of tools to manage their obligations\n",
+					"involvedCapability": [
+						{
+							"capability-name": "Lodgement management",
+							"involvedStakeholder": [],
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Client authentication",
+									"informationConceptState-Name": "Confirmed"
+								}
+							]
+						},
+						{
+							"capability-name": "Inquiry management",
+							"involvedStakeholder": [],
+							"outputValueItem": []
+						},
+						{
+							"capability-name": "Change of circumstances management",
+							"involvedStakeholder": [],
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Concession request",
+									"informationConceptState-Name": "Assessed"
+								}
+							]
+						}
+					],
+					"involvedStakeholder": [],
+					"valueItem": [
+						{
+							"informationConcept-Name": "Submission",
+							"informationConceptState-Name": "Notify land tax exemption"
+						},
+						{
+							"informationConcept-Name": "Submission",
+							"informationConceptState-Name": "Notify land tax liability"
+						}
+					]
+				},
+				{
+					"valueStreamStep-name": "Assessment and notification",
+					"valueStreamStep-description": "Obligations are assessed and the client is notified\n",
+					"involvedCapability": [
+						{
+							"capability-name": "Liability assessment management",
+							"involvedStakeholder": [],
+							"outputValueItem": []
+						},
+						{
+							"capability-name": "Eligibility assessment management",
+							"involvedStakeholder": [],
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Concession eligibility",
+									"informationConceptState-Name": "Confirmed"
+								}
+							]
+						},
+						{
+							"capability-name": "Notice issue management",
+							"involvedStakeholder": [],
+							"outputValueItem": []
+						},
+						{
+							"capability-name": "Charge calculation management ",
+							"involvedStakeholder": [],
+							"outputValueItem": []
+						},
+						{
+							"capability-name": "Adjustment management",
+							"involvedStakeholder": [],
+							"outputValueItem": []
+						}
+					],
+					"involvedStakeholder": [],
+					"valueItem": [
+						{}
+					]
+				},
+				{
+					"valueStreamStep-name": "Payment",
+					"valueStreamStep-description": "Clients are able to pay their obligations\n",
+					"involvedCapability": [
+						{
+							"capability-name": "Collections management",
+							"involvedStakeholder": [],
+							"outputValueItem": []
+						},
+						{
+							"capability-name": "Bank reconciliation",
+							"involvedStakeholder": [],
+							"outputValueItem": []
+						}
+					],
+					"involvedStakeholder": [],
+					"valueItem": [
+						{}
+					]
+				},
+				{
+					"valueStreamStep-name": "Debt management",
+					"valueStreamStep-description": "Clients are able to make arrangements to manage their debts\n",
+					"involvedCapability": [
+						{
+							"capability-name": "Payment arrangement management",
+							"involvedStakeholder": [],
+							"outputValueItem": []
+						},
+						{
+							"capability-name": "Statement management",
+							"involvedStakeholder": [],
+							"outputValueItem": []
+						}
+					],
+					"involvedStakeholder": [],
+					"valueItem": [
+						{}
+					]
+				}
+			],
+			"valueStream-name": "Self manage land rent, rates and land tax obligations",
+			"valueStream-description": "My property based obligations are met",
+			"valueProposition-name": "Property obligations met",
+			"valueItem": [
+				{
+					"informationConcept-Name": "Property account",
+					"informationConceptState-Name": "Account balance is zero"
+				}
+			],
+			"stakeholder-name": "Lease holder"
+		},
+		{
+			"valueStream-name": "Conduct annual parcel re-valuation",
+			"stakeholder-name": "Commissioner for ACT Revenue",
+			"valueProposition-name": "Parcels are valued",
+			"valueItem": [
+				{
+					"informationConcept-Name": "Parcel valuation",
+					"informationConceptState-Name": "AUV effective 1-July applied"
+				}
+			],
+			"valueStreamStep": [
+				{
+					"valueStreamStep-name": "Maintain title and land use ",
+					"valueStreamStep-description": "The maintenance of details of the title holder for a parcel and the permitted use of a parcel is a prerequisite for valuing parcels. ",
+					"involvedCapability": [
+						{
+							"capability-name": "Lease variation management",
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Lease ",
+									"informationConceptState-Name": "Parcel definition and permitted use changes applied"
+								}
+							],
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Environment, Planning and Sustainable Development Directorate"
+								}
+							]
+						},
+						{
+							"capability-name": "Parcel lease management ",
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Lease",
+									"informationConceptState-Name": "New lease defined"
+								}
+							],
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Land titles office"
+								},
+								{
+									"stakeholder-name": "Environment, Planning and Sustainable Development Directorate"
+								}
+							]
+						},
+						{
+							"capability-name": "Parcel title management",
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Parcel title",
+									"informationConceptState-Name": "New title owners specified"
+								}
+							],
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Land titles office"
+								}
+							]
+						}
+					]
+				},
+				{
+					"valueStreamStep-name": "Identify properties",
+					"valueStreamStep-description": "Properties requiring valuations are identified",
+					"involvedCapability": [
+						{
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Environment, Planning and Sustainable Development Directorate"
+								},
+								{
+									"stakeholder-name": "Valuation Office"
+								}
+							],
+							"capability-name": "Property parcel identification",
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Parcel",
+									"informationConceptState-Name": "Parcels as at 1-Jan are available for valuation"
+								}
+							]
+						}
+					]
+				},
+				{
+					"valueStreamStep-name": "Make valuations",
+					"valueStreamStep-description": "A new valuation is made for parcels",
+					"involvedCapability": [
+						{
+							"capability-name": "Block valuation creation",
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Valuation Office"
+								}
+							],
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Parcel valuation",
+									"informationConceptState-Name": "A valuation is created for each parcel"
+								}
+							]
+						}
+					]
+				},
+				{
+					"valueStreamStep-name": "Review valuations",
+					"valueStreamStep-description": "Valuations are evaluated for completeness, consistency, accuracy and reasonableness and corrections are applied.",
+					"involvedCapability": [
+						{
+							"capability-name": "Valuation validation",
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Valuation Office"
+								},
+								{
+									"stakeholder-name": "Commissioner for ACT  Revenue"
+								}
+							],
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Parcel valuation",
+									"informationConceptState-Name": "Valuation applied and reasonableness check passed"
+								}
+							]
+						}
+					]
+				},
+				{
+					"valueStreamStep-name": "Determine parcel valuations",
+					"valueStreamStep-description": "Valuations are made available for use in assessments",
+					"involvedCapability": [
+						{
+							"capability-name": "Valuation data management",
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "ACTRO Operations Officer"
+								},
+								{
+									"stakeholder-name": "Commissioner for ACT  Revenue"
+								}
+							],
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Parcel valuation",
+									"informationConceptState-Name": "Valuations as-at 1-Jan are applied"
+								},
+								{
+									"informationConcept-Name": "Parcel valuation",
+									"informationConceptState-Name": "Commissioner's schedule published"
+								}
+							]
+						}
+					]
+				},
+				{
+					"valueStreamStep-name": "Calculate average  unimproved value",
+					"involvedCapability": [
+						{
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "ACTRO Operations Officer"
+								}
+							],
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Parcel valuation",
+									"informationConceptState-Name": "AUV effective 1-July applied"
+								}
+							],
+							"capability-name": "Assessment valuation calculation"
+						}
+					],
+					"valueStreamStep-description": "Unimproved value is available for all properties that exist as at 30-June"
+				}
+			]
+		}
+	]
 }
