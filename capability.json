@@ -30,9 +30,6 @@
 					"capability-name": "Data load management",
 					"capability-description": "The ability to load data for analysis and use. ",
 					"capability": []
-				},
-				{
-					"capability": []
 				}
 			]
 		}
@@ -46,7 +43,11 @@
 					"involvedCapability": [
 						{
 							"capability-name": "Valuation management",
-							"involvedStakeholder": [],
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "ACT Valuation Office"
+								}
+							],
 							"outputValueItem": [
 								{
 									"informationConcept-Name": "Property valuation",
@@ -60,7 +61,11 @@
 						},
 						{
 							"capability-name": "Land title data management",
-							"involvedStakeholder": [],
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Land Titles Office"
+								}
+							],
 							"outputValueItem": [
 								{
 									"informationConcept-Name": "Land use",
@@ -78,7 +83,15 @@
 						},
 						{
 							"capability-name": "Client data management",
-							"involvedStakeholder": [],
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Land Titles Office"
+								},
+								{
+									"stakeholder-name": "Access Canberra"
+								},
+								{}
+							],
 							"outputValueItem": [
 								{
 									"informationConcept-Name": "Notification preference",
@@ -114,7 +127,11 @@
 					"involvedCapability": [
 						{
 							"capability-name": "Client registration management",
-							"involvedStakeholder": [],
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "ACT Digital"
+								}
+							],
 							"outputValueItem": [
 								{
 									"informationConcept-Name": "Client identity",
@@ -168,7 +185,11 @@
 					"involvedCapability": [
 						{
 							"capability-name": "Lodgement management",
-							"involvedStakeholder": [],
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "ACT Digital"
+								}
+							],
 							"outputValueItem": [
 								{
 									"informationConcept-Name": "Client authentication",
@@ -235,7 +256,11 @@
 						},
 						{
 							"capability-name": "Adjustment management",
-							"involvedStakeholder": [],
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Property operations"
+								}
+							],
 							"outputValueItem": []
 						}
 					],
@@ -470,6 +495,19 @@
 						}
 					],
 					"valueStreamStep-description": "Unimproved value is available for all properties that exist as at 30-June"
+				}
+			]
+		}
+	],
+	"informationConcept": [
+		{
+			"informationConcept-name": "Revenue line",
+			"informationConcept-description": "A source of revenue for the ACT",
+			"informationConcept": [
+				{
+					"informationConcept-name": "Property charges",
+					"informationConcept-description": "Revenue raised on property",
+					"informationConcept": []
 				}
 			]
 		}
