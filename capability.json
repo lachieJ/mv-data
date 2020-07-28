@@ -401,6 +401,10 @@
 								{
 									"informationConcept-Name": "Parcel",
 									"informationConceptState-Name": "Parcels as at 1-Jan are available for valuation"
+								},
+								{
+									"informationConcept-Name": "Parcel",
+									"informationConceptState-Name": "Exempt parcels are identified"
 								}
 							]
 						}
