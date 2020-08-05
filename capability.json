@@ -407,12 +407,26 @@
 									"informationConceptState-Name": "Exempt parcels are identified"
 								}
 							]
+						},
+						{
+							"capability-name": "Valuation management",
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Parcel category management",
+									"informationConceptState-Name": "Parcels allocated"
+								}
+							],
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Valuation Office"
+								}
+							]
 						}
 					]
 				},
 				{
 					"valueStreamStep-name": "Make valuations",
-					"valueStreamStep-description": "A new valuation is made for parcels",
+					"valueStreamStep-description": "A new valuation is made for parcels in targeted categories",
 					"involvedCapability": [
 						{
 							"capability-name": "Block valuation creation",
