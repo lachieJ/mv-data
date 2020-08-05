@@ -412,7 +412,7 @@
 							"capability-name": "Valuation management",
 							"outputValueItem": [
 								{
-									"informationConcept-Name": "Parcel category management",
+									"informationConcept-Name": "Valuation  category management",
 									"informationConceptState-Name": "Parcels allocated"
 								}
 							],
