@@ -101,7 +101,11 @@
 						},
 						{
 							"capability-name": "Client preference management",
-							"involvedStakeholder": [],
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "ACT Revenue Office"
+								}
+							],
 							"outputValueItem": []
 						}
 					],
