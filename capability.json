@@ -373,6 +373,10 @@
 								{
 									"informationConcept-Name": "Parcel title",
 									"informationConceptState-Name": "New title owners specified"
+								},
+								{
+									"informationConcept-Name": "Parcel transfer",
+									"informationConceptState-Name": "Sales price notified"
 								}
 							],
 							"involvedStakeholder": [
