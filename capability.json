@@ -154,6 +154,13 @@
 									"informationConceptState-Name": "A valuation is created for each parcel"
 								}
 							]
+						},
+						{
+							"capability-name": "Property ",
+							"outputValueItem": [
+								{}
+							],
+							"involvedStakeholder": []
 						}
 					]
 				},
@@ -230,5 +237,16 @@
 			]
 		}
 	],
-	"informationConcept": []
+	"informationConcept": [
+		{
+			"informationConcept-name": "Heritage site",
+			"informationConcept-description": "Information related to assessment and management of heritage sites",
+			"informationConcept": []
+		},
+		{
+			"informationConcept-name": "Land title",
+			"informationConcept-description": " The ACT Land Register is the official record of who owns property including registered interests on the property such as a mortgage of caveat.",
+			"informationConcept": []
+		}
+	]
 }
