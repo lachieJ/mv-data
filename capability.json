@@ -69,16 +69,30 @@
 						{
 							"capability-name": "Heritage site management",
 							"outputValueItem": [
-								{}
+								{
+									"informationConcept-Name": "Heritage site",
+									"informationConceptState-Name": "Heritage site status determined"
+								}
 							],
-							"involvedStakeholder": []
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Environment, Planning and Sustainable Development Directorate"
+								}
+							]
 						},
 						{
 							"capability-name": "Contaminated site management",
 							"outputValueItem": [
-								{}
+								{
+									"informationConcept-Name": "Contaminated site",
+									"informationConceptState-Name": "Contaminated site status determined"
+								}
 							],
-							"involvedStakeholder": []
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Environment, Planning and Sustainable Development Directorate"
+								}
+							]
 						}
 					]
 				},
