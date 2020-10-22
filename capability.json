@@ -208,8 +208,8 @@
 							"capability-name": "Valuation quality assurance",
 							"outputValueItem": [
 								{
-									"informationConcept-Name": "Parcelvaluation",
-									"informationConceptState-Name": "Validated block valuation"
+									"informationConcept-Name": "Parcel valuation",
+									"informationConceptState-Name": "Quality assured parcel valuation"
 								}
 							],
 							"involvedStakeholder": []
