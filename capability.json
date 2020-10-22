@@ -5,7 +5,7 @@
 		{
 			"valueStream-name": "Conduct annual parcel re-valuation",
 			"stakeholder-name": "Commissioner for ACT Revenue",
-			"valueProposition-name": "Annual revaluations are timely, consistent and defensible",
+			"valueProposition-name": "Annual re-valuations are timely, consistent and defensible",
 			"valueItem": [
 				{
 					"informationConcept-Name": "Parcel valuation",
@@ -97,16 +97,13 @@
 					]
 				},
 				{
-					"valueStreamStep-name": "Identify properties",
+					"valueStreamStep-name": "Identify valuation properties ",
 					"valueStreamStep-description": "Properties requiring valuations are identified",
 					"involvedCapability": [
 						{
 							"involvedStakeholder": [
 								{
-									"stakeholder-name": "Environment, Planning and Sustainable Development Directorate"
-								},
-								{
-									"stakeholder-name": "Valuation Office"
+									"stakeholder-name": "ACT Revenue Office"
 								}
 							],
 							"capability-name": "Property parcel identification",
@@ -131,7 +128,21 @@
 							],
 							"involvedStakeholder": [
 								{
-									"stakeholder-name": "Valuation Office"
+									"stakeholder-name": "Valuer"
+								}
+							]
+						},
+						{
+							"capability-name": "Valuation request management",
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Valuation request",
+									"informationConceptState-Name": "Allocated valuation request"
+								}
+							],
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Principal valuer"
 								}
 							]
 						}
@@ -233,6 +244,28 @@
 						}
 					],
 					"valueStreamStep-description": "Unimproved value is available for all properties that exist as at 30-June"
+				},
+				{
+					"valueStreamStep-name": "Publish parcel valuations",
+					"involvedCapability": [
+						{
+							"capability-name": "Valuation schedule publication",
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Schedule of valuations",
+									"informationConceptState-Name": "Schedule of valuations published"
+								}
+							],
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Access Canberra"
+								},
+								{
+									"stakeholder-name": "ACTRO Operations Officer"
+								}
+							]
+						}
+					]
 				}
 			]
 		}
