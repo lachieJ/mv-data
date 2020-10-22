@@ -276,7 +276,14 @@
 									"informationConceptState-Name": "Parcel classifications and charges "
 								}
 							],
-							"involvedStakeholder": []
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "ACTRO Operations Officer"
+								},
+								{
+									"stakeholder-name": "ACT Treasury"
+								}
+							]
 						}
 					]
 				}
