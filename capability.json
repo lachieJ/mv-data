@@ -1,6 +1,11 @@
 {
 	"businessName": "ACT Revenue Office",
-	"capability": [],
+	"capability": [
+		{
+			"capability-name": "Block valuation ",
+			"capability": []
+		}
+	],
 	"valueStream": [
 		{
 			"valueStream-name": "Conduct annual parcel re-valuation",
@@ -167,7 +172,7 @@
 							]
 						},
 						{
-							"capability-name": "Property ",
+							"capability-name": "Property benchmark valuation ",
 							"outputValueItem": [
 								{}
 							],
@@ -195,6 +200,16 @@
 									"informationConceptState-Name": "Valuation applied and reasonableness check passed"
 								}
 							]
+						},
+						{
+							"capability-name": "Valuation quality assurance",
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Block valuation",
+									"informationConceptState-Name": "Validated block valuation"
+								}
+							],
+							"involvedStakeholder": []
 						}
 					]
 				},
