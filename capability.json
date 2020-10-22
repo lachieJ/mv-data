@@ -14,7 +14,7 @@
 			],
 			"valueStreamStep": [
 				{
-					"valueStreamStep-name": "Maintain title and land use ",
+					"valueStreamStep-name": "Maintain title and parcels",
 					"valueStreamStep-description": "The maintenance of details of the title holder for a parcel and the permitted use of a parcel is a prerequisite for valuing parcels. ",
 					"involvedCapability": [
 						{
@@ -126,7 +126,7 @@
 							"outputValueItem": [
 								{
 									"informationConcept-Name": "Valuation  category management",
-									"informationConceptState-Name": "Parcels allocated"
+									"informationConceptState-Name": "Parcels allocated to valuation categories"
 								}
 							],
 							"involvedStakeholder": [
