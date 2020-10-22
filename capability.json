@@ -98,6 +98,16 @@
 									"stakeholder-name": "Environment, Planning and Sustainable Development Directorate"
 								}
 							]
+						},
+						{
+							"capability-name": "Territory Plan Management",
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Territory plan",
+									"informationConceptState-Name": "Territory plan published"
+								}
+							],
+							"involvedStakeholder": []
 						}
 					]
 				},
