@@ -158,7 +158,7 @@
 					"valueStreamStep-description": "A new valuation is made for parcels in targeted categories",
 					"involvedCapability": [
 						{
-							"capability-name": "Block valuation creation",
+							"capability-name": "Parcel valuation ",
 							"involvedStakeholder": [
 								{
 									"stakeholder-name": "Valuation Office"
@@ -168,39 +168,6 @@
 								{
 									"informationConcept-Name": "Parcel valuation",
 									"informationConceptState-Name": "A valuation is created for each parcel"
-								}
-							]
-						},
-						{
-							"capability-name": "Property benchmark valuation ",
-							"outputValueItem": [
-								{
-									"informationConcept-Name": "Benchmark parcel",
-									"informationConceptState-Name": "Benchmark property"
-								}
-							],
-							"involvedStakeholder": []
-						}
-					]
-				},
-				{
-					"valueStreamStep-name": "Review valuations",
-					"valueStreamStep-description": "Valuations are evaluated for completeness, consistency, accuracy and reasonableness and corrections are applied.",
-					"involvedCapability": [
-						{
-							"capability-name": "Valuation validation",
-							"involvedStakeholder": [
-								{
-									"stakeholder-name": "Valuation Office"
-								},
-								{
-									"stakeholder-name": "Commissioner for ACT  Revenue"
-								}
-							],
-							"outputValueItem": [
-								{
-									"informationConcept-Name": "Parcel valuation",
-									"informationConceptState-Name": "Valuation applied and reasonableness check passed"
 								}
 							]
 						},
@@ -220,6 +187,23 @@
 					"valueStreamStep-name": "Determine parcel valuations",
 					"valueStreamStep-description": "Valuations are made available for use in assessments",
 					"involvedCapability": [
+						{
+							"capability-name": "Valuation validation",
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "Valuation Office"
+								},
+								{
+									"stakeholder-name": "Commissioner for ACT  Revenue"
+								}
+							],
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Parcel valuation",
+									"informationConceptState-Name": "Valuation applied and reasonableness check passed"
+								}
+							]
+						},
 						{
 							"capability-name": "Valuation data management",
 							"involvedStakeholder": [
@@ -258,13 +242,14 @@
 									"informationConceptState-Name": "AUV effective 1-July applied"
 								}
 							],
-							"capability-name": "Assessment valuation calculation"
+							"capability-name": "Average unimproved valuation calculation"
 						}
 					],
 					"valueStreamStep-description": "Unimproved value is available for all properties that exist as at 30-June"
 				},
 				{
 					"valueStreamStep-name": "Publish parcel valuations",
+					"valueStreamStep-description": "Valuations are published as required by the Rates ACT 2004",
 					"involvedCapability": [
 						{
 							"capability-name": "Valuation schedule publication",
@@ -282,6 +267,16 @@
 									"stakeholder-name": "ACTRO Operations Officer"
 								}
 							]
+						},
+						{
+							"capability-name": "Property tax information management",
+							"outputValueItem": [
+								{
+									"informationConcept-Name": "Parcel assessment",
+									"informationConceptState-Name": "Parcel classifications and charges "
+								}
+							],
+							"involvedStakeholder": []
 						}
 					]
 				}
