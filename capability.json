@@ -107,7 +107,14 @@
 									"informationConceptState-Name": "Territory plan published"
 								}
 							],
-							"involvedStakeholder": []
+							"involvedStakeholder": [
+								{
+									"stakeholder-name": "National Capital Authority"
+								},
+								{
+									"stakeholder-name": "Environment, Planning and Sustainable Development Directorate"
+								}
+							]
 						}
 					]
 				},
